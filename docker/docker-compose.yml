@@ -6,7 +6,7 @@ services:
       - db.env
     environment:
       - BUILDBOT_CONFIG_DIR=config
-      - BUILDBOT_CONFIG_URL=https://github.com/pgr-automation/buildbot_conf/archive/refs/heads/main.zip
+      - BUILDBOT_CONFIG_URL=https://github.com/pgr-automation/buildbot_conf.git
       - BUILDBOT_WORKER_PORT=9989
       - BUILDBOT_WEB_URL=http://localhost:8010/
       - BUILDBOT_WEB_PORT=tcp:port=8010
